@@ -48,6 +48,10 @@ Segundo Duarte (2023) o sensor de efeito Hall é composto por um imã e um senso
 de campo magnético, quando o imã se desloca ele ativa o sensor de campo magnético e gera
 o pulso elétrico, com isso, toda vez que o roter realiza uma volta completa o imã é deslocado
 e o pulso é enviado ao Arduino, sendo possível mensurar o quanto de água passou por ele. 
+Com os dados armazenados nos tópicos do Broker, eles serão enviados ao NodeRED, que ficará responsável por coletar esses dados e enviar a mensagem formatado ao
+usuário via API do WhatsApp, assim o usuário terá a sua disposição o quanto que ele está
+gastando de água, a estimativa de quanto ele pagará na conta de água, recomendações de
+consumo, histórico de consumo e períodos de maior consumo.
 
 #  Nosso objetivo final.
 Queremos criar um dashboar com os principais prinicpais resultados de forma cara e objetiva para que o nosso usário poderá acompanhar os indicadores de desempenho com maior controlem auxiliando na tomada de decisões.
