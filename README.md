@@ -55,6 +55,7 @@ consumo, histórico de consumo e períodos de maior consumo.
 
 #  Nosso objetivo final.
 Queremos criar um dashboar com os principais prinicpais resultados de forma cara e objetiva para que o nosso usário poderá acompanhar os indicadores de desempenho com maior controlem auxiliando na tomada de decisões.
-![descrição da imagem](C:\Users\10426069\Pictures\Screenshots)
 
+
+<img width="727" height="463" alt="Captura de tela 2025-11-13 222120" src="https://github.com/user-attachments/assets/4acf7937-9d03-47a1-9351-af998063b46b" />
 
