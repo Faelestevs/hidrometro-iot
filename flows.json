@@ -140,8 +140,8 @@
         "checkall": "true",
         "repair": false,
         "outputs": 5,
-        "x": 790,
-        "y": 520,
+        "x": 630,
+        "y": 440,
         "wires": [
             [
                 "2473521135a38036"
@@ -172,8 +172,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1080,
-        "y": 460,
+        "x": 920,
+        "y": 380,
         "wires": [
             [
                 "c43b4dc061854af2"
@@ -192,8 +192,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1090,
-        "y": 520,
+        "x": 930,
+        "y": 440,
         "wires": [
             [
                 "c43b4dc061854af2"
@@ -212,8 +212,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 790,
-        "y": 720,
+        "x": 630,
+        "y": 640,
         "wires": [
             [
                 "30d34e8da7746096"
@@ -237,8 +237,8 @@
         "drop": false,
         "allowrate": false,
         "outputs": 1,
-        "x": 1020,
-        "y": 720,
+        "x": 860,
+        "y": 640,
         "wires": [
             [
                 "f4759cc28d5dff3e"
@@ -257,8 +257,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1050,
-        "y": 580,
+        "x": 890,
+        "y": 500,
         "wires": [
             [
                 "c43b4dc061854af2"
@@ -277,8 +277,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 780,
-        "y": 260,
+        "x": 620,
+        "y": 180,
         "wires": [
             [
                 "0f5aac13122717c5",
@@ -298,8 +298,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 770,
-        "y": 360,
+        "x": 610,
+        "y": 280,
         "wires": [
             [
                 "c537e79d208ee526"
@@ -327,8 +327,8 @@
         "topic": "",
         "payload": "",
         "payloadType": "date",
-        "x": 520,
-        "y": 800,
+        "x": 360,
+        "y": 720,
         "wires": [
             [
                 "aef8d1e22fc34519"
@@ -343,8 +343,8 @@
         "property": "payload",
         "action": "",
         "pretty": false,
-        "x": 750,
-        "y": 140,
+        "x": 590,
+        "y": 60,
         "wires": [
             [
                 "34939b4e51be16d2"
@@ -365,8 +365,8 @@
         "correl": "",
         "expiry": "",
         "broker": "48048afe9c31ca19",
-        "x": 1020,
-        "y": 140,
+        "x": 860,
+        "y": 60,
         "wires": []
     },
     {
@@ -383,8 +383,8 @@
         "retentionPolicyV18Flux": "",
         "org": "Mackenzie",
         "bucket": "leitura_agua",
-        "x": 1010,
-        "y": 260,
+        "x": 850,
+        "y": 180,
         "wires": []
     },
     {
@@ -401,8 +401,8 @@
         "retentionPolicyV18Flux": "",
         "org": "Mackenzie",
         "bucket": "leitura_agua",
-        "x": 1010,
-        "y": 360,
+        "x": 850,
+        "y": 280,
         "wires": []
     },
     {
@@ -413,8 +413,8 @@
         "bot": "2229a8b4c893e3a8",
         "saveDataDir": "",
         "filterCommands": false,
-        "x": 530,
-        "y": 520,
+        "x": 370,
+        "y": 440,
         "wires": [
             [
                 "16589d1c4bbf5daa"
@@ -430,8 +430,8 @@
         "bot": "2229a8b4c893e3a8",
         "haserroroutput": true,
         "outputs": 2,
-        "x": 1350,
-        "y": 520,
+        "x": 1190,
+        "y": 440,
         "wires": [
             [],
             []
@@ -445,8 +445,8 @@
         "bot": "2229a8b4c893e3a8",
         "haserroroutput": true,
         "outputs": 2,
-        "x": 1230,
-        "y": 720,
+        "x": 1070,
+        "y": 640,
         "wires": [
             [],
             []
@@ -458,8 +458,8 @@
         "z": "c48ef3ea69b6ee36",
         "name": "",
         "serial": "03f2ba0cd79b2fb7",
-        "x": 490,
-        "y": 140,
+        "x": 330,
+        "y": 60,
         "wires": [
             [
                 "f9562371bd62d65e"
@@ -492,8 +492,8 @@
                 "solarEvents": "sunrise,sunset"
             }
         ],
-        "x": 540,
-        "y": 360,
+        "x": 380,
+        "y": 280,
         "wires": [
             [
                 "1b8421ec68a51ff8"
@@ -513,8 +513,8 @@
         "rap": true,
         "rh": 0,
         "inputs": 0,
-        "x": 540,
-        "y": 260,
+        "x": 380,
+        "y": 180,
         "wires": [
             [
                 "a3d337d890cea208"
@@ -527,8 +527,8 @@
         "z": "c48ef3ea69b6ee36",
         "name": "Fluxo 1",
         "info": "Primeiro fluxo voltado para a conexão com o Arduino pela \nporta serial USB. Os dados são coletados do Arduino e \nenviados para o tópico do broker MQTT.",
-        "x": 350,
-        "y": 140,
+        "x": 190,
+        "y": 60,
         "wires": []
     },
     {
@@ -537,8 +537,8 @@
         "z": "c48ef3ea69b6ee36",
         "name": "Fluxo 2",
         "info": "Aqui os dados são coletados do tópico no\nbroker MQTT, ele recebe um objeto em JSON\ncom a seguinte estrutura:\n\n{\n    \"vazao\": valor float\n}\n\nEsse valor é obtido na função e realiza os\ncálculos para guardar nas variáveis globais\ne enviar para o influxDB:\n\n- Conversão de vazão para litros por\nsegundo;\n- Soma a vazão obtida à variável global\nacumuladora de consumo_mensal.\n\n",
-        "x": 350,
-        "y": 260,
+        "x": 190,
+        "y": 180,
         "wires": []
     },
     {
@@ -547,8 +547,8 @@
         "z": "c48ef3ea69b6ee36",
         "name": "Fluxo 3",
         "info": "Esse fluxo é ativado automaticamente toda\nvez que chega dia primeiro do mês, ou\ninjetado manualmente para zerar a fatura \nconsolidada naquele mês.\n\nA função irá realizar o cálculo do quanto\nfoi consumido no mês e o valor para gerar\num histórico de faturas no InfluxDB.",
-        "x": 350,
-        "y": 360,
+        "x": 190,
+        "y": 280,
         "wires": []
     },
     {
@@ -557,8 +557,8 @@
         "z": "c48ef3ea69b6ee36",
         "name": "Fluxo 4",
         "info": "Esse fluxo irá realizar a ativação do\nbot no telegram. A interação irá iniciar\nquando o usuário envia \"/start\" ao bot.\n\nO bot irá responder com uma mensagem de\nboas-vindas e pede para o usuário escolher\numa frequência para receber o relatórios:\n\n 1 -> Diário\n 2 -> Semanal\n 3 -> Mensal\n\n Se o usuário digitar um valor inválido,\n será mostrado uma mensagem de erro,\n solicitando que tente novamente.\n\n Ao finalizar essas etapas, o id do usuário\n e a frequência escolhida são armazenadas\n em variáveis globais.",
-        "x": 350,
-        "y": 520,
+        "x": 190,
+        "y": 440,
         "wires": []
     },
     {
@@ -567,8 +567,8 @@
         "z": "c48ef3ea69b6ee36",
         "name": "Fluxo 5",
         "info": "Aqui serão disparados os relatórios \nconforme a frequência selecionado pelo\nusuário.\n\nSerá realizado o cálculo do valor da \nfatura conforme as regras de cálculo\nestabelecidas pela Sabesp:\n\n- Tarifa progressiva: A Sabesp utiliza \numa tarifa progressiva, ou seja, o \npreço por m³ aumenta a cada faixa de \nconsumo.\n\n- Faixas de consumo: As faixas são \nescalonadas. A tarifa mínima geralmente \ncobre os primeiros 10 m³ de consumo.\n\n- Cálculo detalhado: A conta total é a \nsoma dos valores de cada faixa de \nconsumo multiplicada pela quantidade \nde m³ consumidos naquela faixa.\n\nExemplo de cálculo para 13 m³:\n\n- 1ª faixa (0 a 10 m³): Você pagará o \nvalor para os primeiros 10 m³.\n\n- 2ª faixa (11 a 20 m³): Você pagará o\nvalor para os 3 m³ restantes\n (\\(13-10=3\\)).\n \n - Total: Some o valor da 1ª faixa com o\nvalor dos 3 m³ da 2ª faixa para obter\no valor total da água.",
-        "x": 350,
-        "y": 720,
+        "x": 190,
+        "y": 640,
         "wires": []
     },
     {
@@ -584,8 +584,8 @@
         "targetType": "msg",
         "statusVal": "",
         "statusType": "auto",
-        "x": 1020,
-        "y": 300,
+        "x": 860,
+        "y": 220,
         "wires": []
     },
     {
@@ -614,8 +614,8 @@
                 "solarEvents": "sunrise,sunset"
             }
         ],
-        "x": 520,
-        "y": 720,
+        "x": 360,
+        "y": 640,
         "wires": [
             [
                 "aef8d1e22fc34519"
@@ -648,8 +648,8 @@
                 "solarEvents": "sunrise,sunset"
             }
         ],
-        "x": 530,
-        "y": 680,
+        "x": 370,
+        "y": 600,
         "wires": [
             [
                 "aef8d1e22fc34519"
@@ -682,8 +682,8 @@
                 "solarEvents": "sunrise,sunset"
             }
         ],
-        "x": 520,
-        "y": 760,
+        "x": 360,
+        "y": 680,
         "wires": [
             [
                 "aef8d1e22fc34519"
