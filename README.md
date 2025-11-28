@@ -15,3 +15,6 @@ O dashboard acima são exemplos de resultados que podem ser obtidos com o empreg
 <img width="1919" height="945" alt="node-red-print" src="https://github.com/user-attachments/assets/2ae91d03-64c7-40ad-8123-ead41a5f3217" />
 
 Para que os Dashboards do Grafana chegassem naquele resultado, primeiro foi necessário que os dados crus obtidos pelo Arduino fossem tratados para se tornarem dados relevantes e legíveis. Cada fluxo cumpre um papel fundamental para o funcionamento da solução que envolve o cálculo de conta de água, conversões de medidas, comunicação com tópico do Broker via MQTT, formatação de mensagens, construção de objetos JSON, armazenamento e persistência no banco de dados, envio e recebimento de mensagens no Telegram.
+
+## Link do vídeo
+https://youtu.be/GSMC89hT29s
